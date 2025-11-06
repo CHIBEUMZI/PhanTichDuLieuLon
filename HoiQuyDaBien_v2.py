@@ -24,6 +24,7 @@ description = description._append(var)
 description = description._append(iqr)
 print(description)
 print('-------------------------------------------------------------------------------------------------------------------')
+
 # Làm sạch dữ liệu
 # 1.1 Kiểm tra tỷ lệ lỗi thiếu data
 data_na = (car_data.isnull().sum() / len(car_data)) * 100
